@@ -38,7 +38,7 @@ app.post("/add-contact-details", async (req, res) => {
     let transporter = nodemailer.createTransport(config);
     let message = {
       from: emailId,
-      to: "anujkaushik380@gmail.com",
+      to: "contact@bemultilingual.ca",
       subject: "Client Contact",
       html: `
       <body style="margin: 0; padding: 0; font-family: Arial, sans-serif; background-color: #f4f4f4;">
